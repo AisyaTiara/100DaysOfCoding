@@ -1,0 +1,14 @@
+package day5;
+public class Main {
+
+		public static void main(String[] args) {
+	
+		/**			
+			String b = "pusing kah";
+			String c = (" pusing adek");
+			System.out.printf(" %s %s %n",  b,  c );
+	
+					System.out.print("aisyah tiara");
+			*/
+	}
+}
