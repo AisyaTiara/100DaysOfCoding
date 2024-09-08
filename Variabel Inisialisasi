@@ -1,0 +1,22 @@
+package day100;
+public class Main {
+	public static void main(String[] args) {
+	
+			// membuat variabel
+			String nama, alamat;
+			int usia ;
+			double tinggi;
+			// mengisi variabel
+			nama ="aisya tiara";
+			alamat ="kapaasang";
+			usia = 17;
+			tinggi  = 150;
+			System.out.println("Nama "+ nama);
+			System.out.println("Alamat:" + alamat);
+			System.out.println( "usia" + 17 + "tahun");
+			System.out.println("tinggi :" + 150 + "cm");	
+
+
+                  
+	}
+}
