@@ -1,0 +1,12 @@
+package day100;
+		public class Main {
+    public static void main(String[] args) {
+        int number = 105;
+         
+        System.out.println("Nilai awal: " + number);
+
+        number = number + 105; 
+        // mengupdate variabel number
+        System.out.println("Nilai setelah update: " + number);
+    }
+}
