@@ -1,0 +1,10 @@
+package day100;
+public class Main {
+	public static void main(String[] args) {
+        final int MAX= 100; 
+        // Mendeklarasikan variabel final
+        System.out.println("Nilai max : " + MAX);
+        
+        // MAX_VALUE = 200; // Ini akan menyebabkan error, karena nilai final tidak bisa diubah
+    }
+}
