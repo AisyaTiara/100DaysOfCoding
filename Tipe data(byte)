@@ -1,0 +1,15 @@
+package day100;
+public class Main {
+	public static void main(String[] args) {
+
+        // Menggunakan byte 
+        byte a = 03;
+        byte b = 11;
+        byte c = 06;
+        byte sum = (byte) (a + b + c);
+         // Perlu casting karena a + b menghasilkan int
+        
+        System.out.println("Hasil penjumlahan: " + sum);
+   
+	}
+}
