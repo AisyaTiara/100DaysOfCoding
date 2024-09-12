@@ -1,0 +1,10 @@
+package day100;
+public class Main {
+	public static void main(String[] args) {
+        short aisyah = 1103;
+        short tiara = 2006;
+        short sum = (short) (aisyah + tiara);
+         // Casting diperlukan untuk operasi aritmatika
+        System.out.println("hasil dari aisyah + tiara : " + sum);
+	}
+}
