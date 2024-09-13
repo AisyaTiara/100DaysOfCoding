@@ -1,0 +1,12 @@
+package day100;
+public class Main {
+	public static void main(String[] args) {
+		int tanggal= 3;
+		int bulan = 11;
+		int tahun = 2006;
+		System.out.println("tanggal="+ tanggal);
+		System.out.println("bulan="+ bulan);
+		System.out.println("tahun="+ tahun);
+		
+	}
+}
