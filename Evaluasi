@@ -1,0 +1,14 @@
+package evaluasi;
+public class Main {
+	public static void main(String[] args) {
+		//membuat variavel data berbeda
+		int aisya = 10;
+		// variavel pertama
+		double tiara = 13.4 ;
+		//variabel ke 2
+		aisya =20 ;
+		//perbaharui
+		System.out.println("nilai aisyah : "+ aisya);
+		System.out.printf ( "nilai tiara:%.2f\n ", tiara);
+	}
+}
