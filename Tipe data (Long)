@@ -1,0 +1,9 @@
+public class Main {
+	public static void main(String[] args) {
+		long tanggallahir = 20061103L;
+		long tanggalkelulusan = 20240508L;
+		
+		System.out.println("tanggal lahir aisya:" + tanggallahir);
+		System.out.println ("tanggal kelulusan di smk:"+ tanggalkelulusan);
+	}
+}
