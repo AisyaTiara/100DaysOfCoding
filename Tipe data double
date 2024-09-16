@@ -1,0 +1,9 @@
+public class Main {
+	public static void main(String[] args) {
+		double aisya = 5.5;
+		double tiara = 2.5;
+		double sum = aisya + tiara;
+		
+		System.out.println("nilai: " + sum);
+	}
+}
