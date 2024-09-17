@@ -1,0 +1,6 @@
+public class Main {
+	public static void main(String[] args) {
+		float ichaa  = 155f;
+		System.out.println("tinggi badan icha: " + ichaa);
+	}
+}
