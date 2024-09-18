@@ -1,0 +1,6 @@
+public class Main {
+	public static void main(String[] args) {
+		char aisyah ='5';
+		System.out.println("saya anak ke:" + aisyah);
+	}
+}
