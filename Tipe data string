@@ -1,0 +1,9 @@
+public class Main {
+	public static void main(String[] args) {
+		String nama, kelas;
+		nama ="aisya tiara";
+		kelas = "a informatika ";
+		System.out.println("nama:" + nama);
+		System.out.println("kelas:" + kelas);
+	}
+}
