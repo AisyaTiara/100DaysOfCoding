@@ -1,0 +1,10 @@
+public class Main {
+	public static void main(String[] args) {
+        short aisyah = 1103;
+        short tiara = 2006;
+        short sum = (short) (aisyah + tiara);
+        System.out.println("penjumlahan aisyah + tiara : " + sum);
+    
+
+	}
+}
