@@ -1,0 +1,11 @@
+package day100;
+public class Main {
+	public static void main(String[] args) {
+        Byte a = 3;
+        Byte b = 11;
+        Byte c = 06;
+        Byte sum = (byte) (a + b + c);   
+        System.out.println("Hasil penjumlahan: " + sum);
+   
+	}
+}
