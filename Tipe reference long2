@@ -1,0 +1,10 @@
+public class Main {
+	public static void main(String[] args) {
+        Long nilaiKecil = 1000L;
+        Long nilaiBesar = 2000L;
+        System.out.println("Nilai kecil: " + nilaiKecil);
+        System.out.println("Nilai besar: " + nilaiBesar);
+        
+		
+	}
+}
