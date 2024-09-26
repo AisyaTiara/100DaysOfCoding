@@ -1,0 +1,5 @@
+public class Main {
+	public static void main(String[] args) {
+		Double icha= 99.5;
+		System.out.println("nilai icha : "+ icha);
+	}
