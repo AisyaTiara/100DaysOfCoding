@@ -1,0 +1,10 @@
+public class Main {
+	public static void main(String[] args) {
+		Character a = 'i';
+		Character b ='c';
+		Character c = 'h';
+		Character d = 'a';
+		
+		System.out.print("nama :" + a+b+c+d);
+	}
+}
