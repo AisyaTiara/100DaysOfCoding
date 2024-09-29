@@ -1,0 +1,10 @@
+public class Main {
+	public static void main(String[] args) {
+        Boolean no = true;
+        Boolean yes = false;
+
+        System.out.println("aku bisa : " + yes);
+        System.out.println("aku tidak bisa  : " + no);
+
+	}
+}
