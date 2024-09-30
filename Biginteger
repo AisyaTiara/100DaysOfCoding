@@ -1,0 +1,10 @@
+import java.math.BigInteger;
+public class Main {
+	public static void main(String[] args) {
+		BigInteger num1 = new BigInteger("12000");
+        BigInteger num2 = new BigInteger("24000");
+        
+       System.out.println("angka no1: " + num1);
+       System.out.println("angka no2: " + num2);
+	}
+}
