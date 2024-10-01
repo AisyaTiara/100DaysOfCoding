@@ -1,0 +1,9 @@
+import java.math.BigDecimal;
+public class BigDecimalExample {
+    public static void main(String[] args) {
+        BigDecimal number1 = new BigDecimal("123.45");
+        BigDecimal number2 = new BigDecimal("678.90");
+        System.out.println ("nilai desimal 1:" + number1);
+        System.out.println("nilai desimal 2:" + number2);
+    }
+}
