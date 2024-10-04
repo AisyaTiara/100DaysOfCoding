@@ -1,0 +1,13 @@
+public class Main {
+	public static void main(String[] args) {
+		int tlj=93;
+		float aij =90.5f;
+		double  pkk= 91.5;
+		byte asj=94;
+		short sum = (short)( tlj + aij  + pkk + asj);
+		System.out.println("nilai total : " + sum);
+		
+		double rata= sum / 4 ;
+		System.out.println("nilai rata-rata  : " + rata);
+	}
+}
