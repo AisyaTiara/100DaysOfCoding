@@ -1,0 +1,17 @@
+package evaluasi;
+public class Main {
+	public static void main(String[] args) {
+
+        int pulsa_pertama = 25000; 
+        int pulsa_kedua = 25000;
+        int jumlah = pulsa_pertama + pulsa_kedua ;
+        
+        int ku_bayar = 30000;
+        int sisah_utang =( jumlah - ku_bayar);
+        
+        System.out.print("menguntang kah pulsa " + pulsa_pertama + " mengutang kah lagi pulsa  " + pulsa_kedua) ;
+     System.out.println(" jadi totalnya " + jumlah);
+        System.out.println(" terus ku bayar dulu " + ku_bayar+ " sisah utang ku tinggal " + sisah_utang);
+
+	}
+}
