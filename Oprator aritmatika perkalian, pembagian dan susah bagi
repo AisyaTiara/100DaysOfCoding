@@ -1,0 +1,15 @@
+public class Main {
+	public static void main(String[] args) {
+		int a = 11;
+		int b = 3; 
+		int c = 12;
+		
+		int d = a*b ;
+		int e = c/b;
+		int f = a%b;
+		
+		System.out.println("11 kali 3 = " +d);
+		System.out.println("12 dibagi 3 = " +e);
+		System.out.println("sisah bagi dari 11 dan 3 = " +f);
+	}
+}
