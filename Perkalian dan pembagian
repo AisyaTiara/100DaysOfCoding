@@ -1,0 +1,14 @@
+public class Main {
+	public static void main(String[] args) {
+		int icha;
+		icha = 20 ;
+		System.out.println("nilai :" + icha);
+		
+		icha *= 2;
+		System.out.println("nilai kali :" + icha);
+		
+		icha /= 5;
+		System.out.println("nilai bagi:" + icha);
+		
+	}
+}
