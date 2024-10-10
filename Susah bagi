@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main {
+     public static void main(String[] args) { 
+        Scanner  isa=new Scanner(System.in);
+        
+        System.out.print("angkat pertama:"); 
+        int icha= isa.nextInt();
+        System.out.print("angkat pembagi nya:");
+        int tiara= isa.nextInt();
+        icha %= tiara;
+        System.out.println("hasil sisa bagi:"+(icha %tiara));
+    }
+}
