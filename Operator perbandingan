@@ -1,0 +1,18 @@
+mport java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("berat_badan_1:");
+			int berat_badan_1 = sc.nextInt();
+		System.out.print("berat_badan_2:");
+			int berat_badan_2 = sc.nextInt();
+		
+		if ( berat_badan_1>berat_badan_2  ) {
+			System.out.println("berat badanv1 lebih berat dibanding berat badan 2:");
+		} else if  (berat_badan_1<berat_badan_2  ) {
+			System.out.println(" berat badan 1 lebih ringan dibanding  berat badan 2:");
+		}
+			
+		
+	}
+}
