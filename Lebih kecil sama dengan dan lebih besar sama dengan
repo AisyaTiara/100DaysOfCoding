@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //variabel
+        System.out.println("nilai standar adalah 75 ");
+        System.out.print("nilai siswa : ");
+        int a = sc.nextInt();
+        
+        
+        
+        //perbandingan
+        if ( a>=75  ) {
+			System.out.println("Tuntas");
+		} else if  (a<=75 ) {
+			System.out.println("Tidak Tuntas");
+		}
+    }
+}
