@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner icha = new Scanner(System.in);
+		System.out.println("bagaimana rencana hari ini aman..?");
+		boolean a =icha.nextBoolean();
+		if (a){
+			System.out.println("hari ini tidak hujan.rencana jalan-jalan aman");
+		}else if(!a){
+		     System.out.println("hari ini hujan.rencana harus dibatalkan ");
+	}
+}
+}
