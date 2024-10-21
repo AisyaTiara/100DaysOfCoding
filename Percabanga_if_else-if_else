@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner icha = new Scanner(System.in);
+		int a = icha.nextInt();
+		if (a>1){
+			System.out.println("positif");
+		}else if(a<-1){
+			System.out.println("negatif");
+		}else 
+			System.out.println("bernilai nol");
+	}
+}
