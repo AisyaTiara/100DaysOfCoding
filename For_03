@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("masukkan nilai icha lebih tinggi dibanding nilai akhir..!!!");
+		System.out.print("akhir ");
+		int akhir =sc.nextInt();
+		System.out.print("icha : ");
+		int icha =sc.nextInt();
+		for (int i = icha ; i>akhir ; i--){
+		System.out.println(i);
+	}	
+	}
+}
