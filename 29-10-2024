@@ -1,0 +1,16 @@
+package aisyah.java;
+import java.util.Scanner;
+public class informatika {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+ 
+        System.out.print("masukkan nilai akhir :");
+        int akhir2 =sc.nextInt();
+        System.out.print("masukkan nilai awal :");
+        int b = sc.nextInt();
+     while (b>= akhir2){
+         b-=2;
+         System.out.println(b);
+    }
+}
+}
