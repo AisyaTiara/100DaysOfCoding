@@ -1,0 +1,10 @@
+package com.mycompany.mavenproject6;
+public class Mavenproject6 {
+
+    public static void main(String[] args) {
+        int []a ={20,10,40,50};
+        for (int b : a) {
+            System.out.print(b+" ");
+    }
+}
+}
