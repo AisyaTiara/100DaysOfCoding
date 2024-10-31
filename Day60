@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.print("mulai dari angka:");
+		int i = sc.nextInt();
+		System.out.print("angka terahir :");
+		int akhir = sc.nextInt();
+		do{
+			System.out.println("perulangan ke- " + i);
+			i++;
+		}while (i<=akhir);
+	}
+	
+}
