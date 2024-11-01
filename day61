@@ -1,0 +1,9 @@
+package com.mycompany.mavenproject6;
+public class Mavenproject6 {
+    public static void main(String[] args) {
+      
+     while (true) {
+            System.out.println("ada");
+    }
+
+}}
