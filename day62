@@ -1,0 +1,19 @@
+package com.mycompany.mavenproject6;
+import java.util.Scanner;
+public class Mavenproject6 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("nilai akhir :");
+        int akhir = sc.nextInt();
+        System.out.print("berhenti di angkat :");
+        int berhenti = sc.nextInt();
+        for (int i = 1; i <= akhir; i++) {
+            if (i == berhenti) {
+                System.out.println("Mencetak "+ berhenti +" keluar dari loop.");
+                break; // Keluar dari loop ketika i sama dengan yang di ketik varialbel berhenti
+            }
+            System.out.println("Angka: " + i);
+        }
+        System.out.println("Loop telah dihentikan.");
+    }
+}
