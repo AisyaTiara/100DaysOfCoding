@@ -1,0 +1,11 @@
+package isya;
+public class day68 {
+	public String slm(String nama) {
+		return "Hai, "+nama;
+	}
+		public static void main (String[ ] args) {
+			day68 obj = new day68( ) ;
+				String pesan = obj.slm(" Isya") ;
+				System.out.println(pesan) ;
+}
+}
