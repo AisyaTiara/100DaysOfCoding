@@ -1,0 +1,27 @@
+package com.mycompany.mavenproject10;
+import java.util.Scanner;
+public class Mavenproject10 {
+     public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("masukkan angka awal = ");
+        int awal = sc.nextInt();
+        System.out.print("masukkan angk akhir = ");
+        int akhir = sc.nextInt();
+        
+        int jumlahGenap = 0;
+        int jumlahGanjil = 0;
+        for (int i = awal; i<=akhir; i++){
+            if (i%2==0){
+                jumlahGenap++;
+            }else {
+                jumlahGanjil++;
+            }
+        }
+        System.out.println("Dalam rentang" + awal +" sampe "+ akhir );
+        System.out.println("jumlah bilangan genap :" + jumlahGenap);
+        System.out.println("jumlah bilangan ganjil :" + jumlahGanjil);
+        
+       
+    }
+    
+}
