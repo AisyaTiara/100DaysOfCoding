@@ -1,0 +1,15 @@
+package com.mycompany.evaluasi_5;
+import java.util.Scanner;
+public class soal_1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("masukan batas = ");
+       char batas =sc.next().charAt(0); 
+        System.out.print("huruf yang tidak diinginkan = ");
+        char tidak_diinginkan = sc.next().charAt(0);
+        for (char c = 'A'; c<= batas; c++){
+            System.out.println(c);
+        }
+    }
+    
+}
