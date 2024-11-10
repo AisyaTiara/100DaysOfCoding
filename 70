@@ -1,0 +1,12 @@
+package capek_maka;
+public class capek {
+    public static void tambah(int a,int b) {
+        int hasil = a + b;
+        System.out.println("hasil penjumlahan " + hasil);
+    }
+     public static void main(String[] args) {
+        tambah(5,3);
+    }
+  
+    
+}
