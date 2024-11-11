@@ -1,0 +1,12 @@
+package banyak_tugas;
+
+public class pusing {
+     public static void sabar() {
+        System.out.println("tetap semangat demi masa depan yang lebih baik..!");
+    }
+     public static void main(String[] args) {
+        sabar();
+    }
+  
+    
+}
