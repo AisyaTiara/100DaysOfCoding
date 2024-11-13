@@ -1,0 +1,17 @@
+import java.util.Scanner;
+		public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("inputan harus angka,dimulai dari nol");
+        System.out.print("huruf ke ");
+        int a = sc.nextInt();
+        System.out.print("dari ");
+        String str = "AISYAH";
+        System.out.println(str);
+        char inisial = str.charAt(a);  
+        System.out.print(inisial); 
+        
+    }
+}
+
+	
