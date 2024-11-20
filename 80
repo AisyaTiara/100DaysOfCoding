@@ -1,0 +1,16 @@
+
+package isyah;
+
+import java.util.Scanner;
+
+public class day80 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        String a = sc.nextLine();
+            
+      String b = a.trim();
+        System.out.println("sebelum =" + a + ".");
+        System.out.println("setelah =" + b + ".");
+    }
+    
+}
