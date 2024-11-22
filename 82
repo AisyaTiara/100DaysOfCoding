@@ -1,0 +1,14 @@
+package Aisya;
+import java.util.Scanner;
+public class HARI_82 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("masukkan inputan = ");
+        double a = sc.nextDouble();
+        System.out.println("hasil dari ceil = " + Math.ceil(a));
+        System.out.println("hasil dari floor = " + Math.floor(a));
+        System.out.println("hasil dari round = " + Math.round(a));
+    }
+    
+}
+ 
